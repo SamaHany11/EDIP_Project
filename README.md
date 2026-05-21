@@ -1,5 +1,5 @@
 <p align="center">
-  <h1 align="center">EDIP — Electronic Document Intelligence Platform</h1>
+  <h1 align="center">EDIP — Enterprise Document Intelligence Platform</h1>
   <p align="center">
     A production-grade <strong>Spring Boot backend</strong> for intelligent enterprise document management,<br/>
     featuring AI-powered OCR, auto-classification, smart routing, and a RAG-based document chatbot.
@@ -285,6 +285,23 @@ Swagger UI: `https://edipbackend-production.up.railway.app/swagger-ui/index.html
 | POST | `/api/search/documents` | Authenticated | Role-aware document search |
 | POST | `/api/search/users` | HEAD, ADMIN | Search users |
 
+## Feedback 
+
+| Method | Endpoint | Role | Description |
+|---|---|---|---|
+| POST | `/api/feedback/{documentId}` | EXTERNAL | Submit feedback for a document |
+| GET | `/api/feedback` | HEAD | Get all feedbacks (filter by status + pagination) |
+| PUT | `/api/feedback/{feedbackId}/review` | HEAD | Mark feedback as reviewed |
+
+## Account Management 
+
+| Method | Endpoint | Role | Description |
+|---|---|---|---|
+| GET | `/api/accounts/all` | ADMIN, HEAD | Get all users (with optional department filter + pagination) |
+| POST | `/api/accounts/create` | ADMIN | Create new employee account |
+| PUT | `/api/accounts/{id}/disable` | ADMIN | Disable a user account |
+| PUT | `/api/accounts/{id}/enable` | ADMIN | Enable a user account |
+| PUT | `/api/accounts/{id}/update-info` | ADMIN, HEAD | Update employee information |
 ---
 
 ## Deployment
@@ -298,15 +315,6 @@ Railway automatically builds from the `Dockerfile` and injects all environment v
 - **SQL Server** hosted on a remote Azure-compatible SQL instance
 - **MongoDB Atlas** for OCR results, file storage, and RAG indexing
 - **HuggingFace Spaces** for the AI processing and RAG APIs
-
-### Deploy Your Own Instance on Railway
-
-1. Push the repo to GitHub
-2. Go to [railway.app](https://railway.app) -> **New Project** -> **Deploy from GitHub repo**
-3. Select your repository
-4. Railway auto-detects the `Dockerfile` and builds it
-5. Go to **Variables** tab and add all keys from `.env.example`
-6. Railway assigns a public URL automatically — set it as `FRONTEND_URL` in your frontend
 
 ---
 
@@ -394,9 +402,9 @@ docker run -p 8080:8080 --env-file .env edip-backend
 | Sama Hany          | Backend Developer                   |
 | Shahd Rabea        | Backend Developer & DevOps Engineer |
 | Manar Saber        | AI Engineer                         |
-| Esraa Ahmed        | Frontend Developer                 |
-| Rana Mohamed       | Testing                             |
-| Mennatallah Ahmed  | Testing                             |
+| Esraa Ahmed        | Frontend Developer                  |
+| Rana Mohamed       | Software Tester                     |
+| Mennatallah Ahmed  | DevOps Engineer                     |
 
 ---
 

@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb22ee68-dbf5-4cf7-a014-3549fe068fd0" name="Changes" comment="EDIP PROJECT" />
+    <list default="true" id="bb22ee68-dbf5-4cf7-a014-3549fe068fd0" name="Changes" comment="EDIP PROJECT">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -70,7 +73,7 @@
       <option name="presentableId" value="Default" />
       <updated>1779378072476</updated>
       <workItem from="1779378073643" duration="5646000" />
-      <workItem from="1779398797558" duration="5261000" />
+      <workItem from="1779398797558" duration="5837000" />
     </task>
     <task id="LOCAL-00001" summary="EDIP Project">
       <option name="closed" value="true" />
@@ -128,7 +131,15 @@
       <option name="project" value="LOCAL" />
       <updated>1779404339178</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="EDIP PROJECT">
+      <option name="closed" value="true" />
+      <created>1779407314766</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1779407314766</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
