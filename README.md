@@ -9,7 +9,7 @@
     <img src="https://img.shields.io/badge/Spring%20Boot-3.2.8-brightgreen?style=flat-square&logo=springboot"/>
     <img src="https://img.shields.io/badge/Database-SQL%20Server%20%2B%20MongoDB-blue?style=flat-square"/>
     <img src="https://img.shields.io/badge/Security-JWT%20%2B%20Spring%20Security-red?style=flat-square"/>
-    <img src="https://img.shields.io/badge/AI-OCR%20%2B%20RAG%20Chatbot-purple?style=flat-square"/>
+    <img src="https://img.shields.io/badge/AI-OCR%20%2B%20Classification%20%2B%20RAG%20Chatbot-purple?style=flat-square"/>
     <img src="https://img.shields.io/badge/Deployment-Railway-black?style=flat-square&logo=railway"/>
     <img src="https://img.shields.io/badge/Container-Docker-2496ED?style=flat-square&logo=docker"/>
     <img src="https://img.shields.io/badge/API%20Docs-Swagger%20UI-85EA2D?style=flat-square&logo=swagger"/>
